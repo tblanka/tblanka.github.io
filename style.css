@@ -1,0 +1,107 @@
+html {
+  scroll-padding-top: 160px; /* height of sticky header */
+}
+body {
+  background: LightCyan;
+}
+header {
+  width: 100%;
+  height: 150px;
+  background: maroon;
+  font-family: 'Gotu', sans-serif;
+  font-size: 2.5em;
+  position: fixed;
+  top: 0;
+}
+.menu {
+  height: 150px;
+  display: flex;
+  margin: 0 200px;
+  padding: 0;
+  align-items: center;
+  justify-content: space-around;
+}
+a.item {
+  margin: 10px;
+  text-decoration: none;
+  color: LightCyan;
+  text-shadow: 2px 2px #222;
+}
+main {
+  width: 100%;
+  margin-top: 150px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+.image {
+  height: 800px;
+  width: 40%;
+  margin-bottom: 20px;
+  background: center url(https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png);
+  z-index: -1;
+}
+.right {
+  width: 50%;
+  padding: 0 20px 0 20px;
+  color: maroon;
+}
+.left {
+  width: 40%;
+}
+blockquote {
+  background: brown;
+  color: LightCyan;
+  text-shadow: 2px 2px #222;
+  font-family: 'Gotu', sans-serif;
+  font-size: 2.5em;
+  margin: 0;
+  padding: 40px 0 40px 40px;
+  position: relative;
+  z-index: -1;
+}
+blockquote::before {
+  content: '”';
+  font-size: 2.5em;
+  position: absolute;
+  left: 0px;
+  top: -20px;
+}
+h2 {
+  font-variant: all-small-caps;
+}
+hr {
+  height: 2px;
+  color: maroon;
+  background-color: maroon;
+}
+.title {
+  position: relative;
+  left: 20%;
+  top: 420px;
+  font-family: 'Gotu', sans-serif;
+  font-size: 2.8em;
+  font-variant: normal;
+  color: maroon;
+  text-shadow: 2px 2px #000;
+  z-index: -1;
+}
+.big {
+  display: block;
+  font-size: 2.5em;
+  line-height: 100%;
+}
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 0;
+  margin-top: 0;
+}
+.smallspace {
+  margin-bottom: 5px;
+}
